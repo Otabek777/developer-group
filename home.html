@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title></title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <a href="#" class="header__logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <div class="header__navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Новостройки</a>
+                        </li>
+                        <li>
+                            <a href="#">О компании</a>
+                        </li>
+                        <li>
+                            <a href="#">Избранное</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__right">
+                    <a href="tel:8 800 600-80-24" class="header__phone">8 800 600-80-24</a>
+                    <button class="header__call">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="home">
+            <div class="container">
+                <div class="title_h1">
+                    <h1>ЖК «Gray»</h1>
+                    <div class="crumbs">
+                        <ul>
+                            <li>
+                                <a href="#">Главная</a>
+                            </li>
+                            <li>
+                                <a href="#">Новостройки</a>
+                            </li>
+                            <li>
+                                <p>ЖК «Gray»</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="home__wrapImages">
+                    <div class="home__mainImg">
+                        <img src="img/home-1.png" alt="">
+                    </div>
+                    <div class="home__images">
+                        <div class="home__img">
+                            <img src="img/home-2.png" alt="">
+                        </div>
+                        <div class="home__img">
+                            <img src="img/home-3.png" alt="">
+                        </div>
+                        <div class="home__img">
+                            <img src="img/home-4.png" alt="">
+                        </div>
+                        <div class="home__img">
+                            <img src="img/home-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="complex">
+            <div class="container">
+                <div class="complex__tabBtn">
+                    <button class="btn active">О комплексе</button>
+                    <button class="btn">О доме</button>
+                    <button class="btn">Дополнительная информация</button>
+                </div>
+                <div class="complex__tabBlock">
+                    <div class="complex__box">
+                        <div class="complex__content">
+                            <h5>О комплексе</h5>
+                            <p>Жилой комплекс Gray (Грей) представляет собой новый формат жилья в Левенцовке. Малоэтажные кирпичные дома, с просторными дворами закрытого типа. Во дворах безопасные детские и спортивные площадки, прогулочные зоны, барбекю и многое другое. Большая территория под гостевую парковку, теплый подземный паркинг.</p>
+                            <p>На территории комплекса собственный детский сад и поликлиника, в шаговой доступности крупный торговый центр.Просторные квартиры с панорамным остеклением и хорошей шумоизоляцией. Планировки от уютной студии до просторной трёшки отличаются грамотными планировочными решениями, имеют встроенные ниши и гардеробные помещения.</p>
+                        </div>
+                        <div class="complex__img">
+                            <img src="img/complex.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="filter">
+            <div class="container">
+                <div class="filter__wrap">
+                    <div class="filter__select select1">
+                        <select name="" id="">
+                            <option value="">Тип квартиры</option>
+                            <option value="">Тип квартиры</option>
+                        </select>
+                    </div>
+                    <div class="filter__select select2">
+                        <select name="" id="">
+                            <option value="">Цена от</option>
+                            <option value="">Цена от</option>
+                        </select>
+                    </div>
+                    <div class="filter__select select2">
+                        <select name="" id="">
+                            <option value="">Цена до</option>
+                            <option value="">Цена до</option>
+                        </select>
+                    </div>
+                    <div class="filter__select select3">
+                        <select name="" id="">
+                            <option value="">Этаж</option>
+                            <option value="">Этаж</option>
+                        </select>
+                    </div>
+                    <div class="filter__select select4">
+                        <select name="" id="">
+                            <option value="">Адрес</option>
+                            <option value="">Адрес</option>
+                        </select>
+                    </div>
+                    <div class="filter__select select1">
+                        <select name="" id="">
+                            <option value="">Площадь</option>
+                            <option value="">Площадь</option>
+                        </select>
+                    </div>
+                    <div class="filter__bottom">
+                        <div class="filter__checked">
+                            <div class="check">
+                                <input type="checkbox" id="1">
+                                <label for="1">Балкон</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" id="2">
+                                <label for="2">Раздельный санузел</label>
+                            </div>
+                        </div>
+                        <button class="filter__clear">сбросить фильтры</button>
+                        <button class="main_btn">показать</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="products__box">
+                    <div class="products__block">
+                        <div class="products__img">
+                            <img src="img/products.png" alt="">
+                        </div>
+                        <div class="products__content">
+                            <button class="products__like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <p>2-комнатная</p>
+                            <ul>
+                                <li>Корпус 1.1</li>
+                                <li>23.2 м2</li>
+                            </ul>
+                            <a href="#" class="btn2">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="products__block">
+                        <div class="products__img">
+                            <img src="img/products.png" alt="">
+                        </div>
+                        <div class="products__content">
+                            <button class="products__like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <p>2-комнатная</p>
+                            <ul>
+                                <li>Корпус 1.1</li>
+                                <li>23.2 м2</li>
+                            </ul>
+                            <a href="#" class="btn2">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="products__block">
+                        <div class="products__img">
+                            <img src="img/products.png" alt="">
+                        </div>
+                        <div class="products__content">
+                            <button class="products__like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <p>2-комнатная</p>
+                            <ul>
+                                <li>Корпус 1.1</li>
+                                <li>23.2 м2</li>
+                            </ul>
+                            <a href="#" class="btn2">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="products__block">
+                        <div class="products__img">
+                            <img src="img/products.png" alt="">
+                        </div>
+                        <div class="products__content">
+                            <button class="products__like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <p>2-комнатная</p>
+                            <ul>
+                                <li>Корпус 1.1</li>
+                                <li>23.2 м2</li>
+                            </ul>
+                            <a href="#" class="btn2">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="products__block">
+                        <div class="products__img">
+                            <img src="img/products.png" alt="">
+                        </div>
+                        <div class="products__content">
+                            <button class="products__like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <p>2-комнатная</p>
+                            <ul>
+                                <li>Корпус 1.1</li>
+                                <li>23.2 м2</li>
+                            </ul>
+                            <a href="#" class="btn2">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="products__block">
+                        <div class="products__img">
+                            <img src="img/products.png" alt="">
+                        </div>
+                        <div class="products__content">
+                            <button class="products__like">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <p>2-комнатная</p>
+                            <ul>
+                                <li>Корпус 1.1</li>
+                                <li>23.2 м2</li>
+                            </ul>
+                            <a href="#" class="btn2">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="container">
+                <div class="video__wrap">
+                    <iframe src="https://www.youtube.com/embed/jfKfPfyJRdk?si=jqT3gYwIxKnqV1yL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="application">
+            <div class="container">
+                <div class="application__wrap">
+                    <h3>Хотите купить квартиру в одном из микрорайонов  «Группы застройщиков»?</h3>
+                    <p>Оставьте заявку на консльтацию или звоните по телефону: <a href="tel:8 800 600-80-24">8 800 600-80-24</a></p>
+                    <div class="application__form">
+                        <div class="application__input">
+                            <input type="text" placeholder="Укажите ваше имя">
+                        </div>
+                        <div class="application__input">
+                            <input type="text" placeholder="+7 ХXX XXX XX XX" class="input_phone tel">
+                        </div>
+                        <button class="main_btn">Отправить</button>
+                    </div>
+                    <p>Наживая кнопку “Отправить” вы даете согласие на <a href="#">обработку персональных данных</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__box">
+                    <a href="#" class="footer__logo">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                    <div class="header__nav">
+                        <ul>
+                            <li>
+                                <a href="#">Новостройки</a>
+                            </li>
+                            <li>
+                                <a href="#">О компании</a>
+                            </li>
+                            <li>
+                                <a href="#">Избранное</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__address">
+                        <h6>Ростов-на-Дону</h6>
+                        <p>ул. Красноармейская 200</p>
+                        <p>ул. Еременко 89Б</p>
+                    </div>
+                    <div class="footer__email">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11" fill="none">
+                                <path d="M0.00199997 2.1515C0.0273784 1.57235 0.275316 1.02533 0.694124 0.624503C1.11293 0.223673 1.67029 -4.04685e-05 2.25 5.4909e-09H11.75C12.3297 -4.04685e-05 12.8871 0.223673 13.3059 0.624503C13.7247 1.02533 13.9726 1.57235 13.998 2.1515L13.26 2.5615L7 5.932L0.74 2.5615L0.00199997 2.1515ZM0 3.294V8.75C0 9.34674 0.237053 9.91903 0.65901 10.341C1.08097 10.7629 1.65326 11 2.25 11H11.75C12.3467 11 12.919 10.7629 13.341 10.341C13.7629 9.91903 14 9.34674 14 8.75V3.294L13.737 3.4405L7.237 6.9405C7.16416 6.97971 7.08273 7.00024 7 7.00024C6.91727 7.00024 6.83584 6.97971 6.763 6.9405L0.257 3.437L0 3.294Z" fill="#009FE3"/>
+                            </svg>
+                            grouppa-zastroishikov@yandex.ru
+                        </a>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                <g clip-path="url(#clip0_171_849)">
+                                <path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z" fill="#009FE3"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_171_849">
+                                <rect width="14" height="14" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            будни: с 9.00 до 20.00
+                            выходные: с 10.00 до 18.00
+                        </p>
+                    </div>
+                    <div class="footer__phone">
+                        <a href="tel:8 800 600-80-24">8 800 600-80-24</a>
+                        <button class="footer__call">Заказать звонок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__box">
+                    <div class="footer__left">
+                        <div class="footer__copy">© 2023-2023</div>
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                    <div class="footer__kontur">
+                        <div>
+                            <a href="#">Создание сайтов</a>
+                            <a href="#">Продвижение сайтов</a>
+                        </div>
+                        <img src="img/kontur.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
